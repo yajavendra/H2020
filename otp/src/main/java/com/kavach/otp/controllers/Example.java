@@ -15,7 +15,7 @@ public class Example {
         Content content = new Content("text/plain", "Milte hi reply karna :)");
         Mail mail = new Mail(from, subject, to, content);
 
-        SendGrid sg = new SendGrid("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");
+        SendGrid sg = new SendGrid("SENDGRID_APIKEY);
         Request request = new Request();
         try {
             request.setMethod(Method.POST);
