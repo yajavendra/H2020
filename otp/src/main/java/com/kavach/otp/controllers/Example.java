@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Example {
     public static void main(String[] args) throws IOException {
-        /*Email from = new Email("yajavendra.patel@gmail.com");
+        /*Email from = new Email("");
         String subject = "Kawach";
         Email to = new Email("Mahesh.Anvekar@lntinfotech.com");
         //Email to = new Email("nitin.pandey@lntinfotech.com");
