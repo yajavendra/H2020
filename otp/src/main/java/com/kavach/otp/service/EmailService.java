@@ -12,7 +12,7 @@ public class EmailService {
     //TODO: throw this to YML
     public static final String KAVACH_MAIL_ID = "yajavendra.patel@gmail.com";
     public static final String SUBJECT = "Kavach";
-    public static final String SENDGRID_APIKEY = "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";
+    public static final String SENDGRID_APIKEY = "SENDGRID_APIKEY";
 
     public void sendEmail(OTP otp) throws IOException {
         Content content = new Content("text/plain", "Your Kavach OTP is :" + otp.getOtp() + " It would be valid till " + OTP.TIME_TO_LIVE + " seconds");
